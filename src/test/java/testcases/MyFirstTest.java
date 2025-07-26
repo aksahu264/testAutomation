@@ -18,6 +18,7 @@ public class MyFirstTest extends BaseTest{
 		driver.findElement(By.xpath("//*[@id=\"login_id\"]")).sendKeys("aksahu4124@gmail.com");
 		Thread.sleep(4000);
 		driver.findElement(By.xpath("//*[@id=\"nextbtn\"]/span")).click();
+		System.out.println("Success");
 		
 	}
 
