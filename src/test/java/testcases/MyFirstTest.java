@@ -19,6 +19,7 @@ public class MyFirstTest extends BaseTest{
 		Thread.sleep(4000);
 		driver.findElement(By.xpath("//*[@id=\"nextbtn\"]/span")).click();
 		System.out.println("Success");
+		System.out.println(System.getProperty("user.dir"));
 		
 	}
 

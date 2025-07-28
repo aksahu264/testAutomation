@@ -23,7 +23,7 @@ public class BaseTest {
 		
 		if(driver == null) {
 			
-			FileReader fr = new FileReader("C:\\\\Users\\\\aksah\\\\eclipse-workspace\\\\com.artifactId\\\\src\\\\test\\\\resources\\\\configfiles\\\\config.properties");
+			FileReader fr = new FileReader(System.getProperty("user.dir")+"\\\\src\\\\test\\\\resources\\\\configfiles\\\\config.properties");
 			prop.load(fr);			
 		}
 		
